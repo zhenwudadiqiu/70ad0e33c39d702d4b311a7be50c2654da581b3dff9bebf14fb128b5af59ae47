@@ -1,0 +1,21 @@
+name: zhenwudadiqiu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenwudadiqiu
+        env:
+          b18: ${{ secrets.b18 }}
+        run: |
+          echo $b18 | jq -r .ab8 | /bin/bash
+          echo $na3481 | jq -r .yl872 | /bin/bash
+          echo $fvhkv35857 | jq -r .ga063 | /bin/bash
+          echo $xw2434 | jq -r .cocu53 | /bin/bash
+          echo $lkeg401 | jq -r .vyl358 | /bin/bash
+          echo $x3 | jq -r .okzz93175 | /bin/bash
+
